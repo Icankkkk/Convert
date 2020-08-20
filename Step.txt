@@ -1,0 +1,16 @@
+
+UBUNTU/LINUX:
+sudo apt update
+sudo apt-get install git
+sudo apt-get install build-essential // khusus untuk yang mau recompile
+git clone https://github.com/Icankkkk/Convert
+cd Convert
+chmod +x Main.out
+./Main.out
+
+Nb: Misal mau edit source dan mau compile ulang, caranya ketik command:
+g++ Main.cpp -o Main
+run dengan command: ./Main
+
+TERMUX:
+untuk termux command nya sama, tinggal dihilangkan saja perintah sudo nya !
